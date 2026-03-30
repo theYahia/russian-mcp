@@ -7,15 +7,6 @@
 
 ---
 
-## E-commerce и маркетплейсы
-
-| Пакет | Статус | Tools | Описание |
-|-------|--------|-------|----------|
-| [@theyahia/ozon-mcp](https://www.npmjs.com/package/@theyahia/ozon-mcp) | 📅 | 12 | Товары, цены, аналитика, FBO/FBS |
-| [@theyahia/wildberries-mcp](https://www.npmjs.com/package/@theyahia/wildberries-mcp) | 📅 | — | Товары, заказы, аналитика |
-| [@theyahia/yandex-market-mcp](https://www.npmjs.com/package/@theyahia/yandex-market-mcp) | 📅 | — | Маркетплейс Яндекса |
-| [@theyahia/insales-mcp](https://www.npmjs.com/package/@theyahia/insales-mcp) | 📅 | — | E-commerce платформа |
-
 ## Платежи
 
 | Пакет | Статус | Tools | Описание |
@@ -167,6 +158,17 @@ claude mcp add dadata -- npx -y @metarebalance/dadata-mcp
 3. cdek-mcp:     create_order() → создать доставку
 4. yookassa-mcp: create_payment() → принять оплату
 ```
+
+---
+
+## E-commerce и маркетплейсы (SOON)
+
+| Пакет | Статус | Tools | Описание |
+|-------|--------|-------|----------|
+| [@theyahia/ozon-mcp](https://www.npmjs.com/package/@theyahia/ozon-mcp) | 📅 SOON | 12 | Товары, цены, аналитика, FBO/FBS |
+| [@theyahia/wildberries-mcp](https://www.npmjs.com/package/@theyahia/wildberries-mcp) | 📅 SOON | — | Товары, заказы, аналитика |
+| [@theyahia/yandex-market-mcp](https://www.npmjs.com/package/@theyahia/yandex-market-mcp) | 📅 SOON | — | Маркетплейс Яндекса |
+| [@theyahia/insales-mcp](https://www.npmjs.com/package/@theyahia/insales-mcp) | 📅 SOON | — | E-commerce платформа |
 
 ---
 
