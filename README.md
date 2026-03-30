@@ -64,9 +64,9 @@
 
 | Пакет | Статус | Tools | Описание |
 |-------|--------|-------|----------|
-| [@theyahia/hh-mcp](https://www.npmjs.com/package/@theyahia/hh-mcp) | 📅 | 8 | Вакансии, резюме, зарплаты |
-| [@theyahia/superjob-mcp](https://www.npmjs.com/package/@theyahia/superjob-mcp) | 📅 | — | Вакансии |
-| [@theyahia/huntflow-mcp](https://www.npmjs.com/package/@theyahia/huntflow-mcp) | 📅 | — | Рекрутинг ATS |
+| [@theyahia/hh-mcp](https://www.npmjs.com/package/@theyahia/hh-mcp) | ✅ v1.0 | **6** | Вакансии, работодатели, зарплаты, справочники |
+| [@theyahia/superjob-mcp](https://www.npmjs.com/package/@theyahia/superjob-mcp) | ✅ v1.0 | **2** | Вакансии |
+| [@theyahia/huntflow-mcp](https://www.npmjs.com/package/@theyahia/huntflow-mcp) | ✅ v1.0 | **4** | Вакансии, кандидаты |
 
 ## Коммуникации
 
