@@ -12,18 +12,18 @@
 | Пакет | Статус | Tools | Описание |
 |-------|--------|-------|----------|
 | [@theyahia/yookassa-mcp](https://www.npmjs.com/package/@theyahia/yookassa-mcp) | ✅ v1.0 | **10** | Платежи, возвраты, чеки 54-ФЗ |
-| [@theyahia/tkassa-mcp](https://www.npmjs.com/package/@theyahia/tkassa-mcp) | 📅 | — | T-Kassa (Tinkoff) платежи |
-| [@theyahia/robokassa-mcp](https://www.npmjs.com/package/@theyahia/robokassa-mcp) | 📅 | — | Робокасса |
-| [@theyahia/cloudpayments-mcp](https://www.npmjs.com/package/@theyahia/cloudpayments-mcp) | 📅 | — | CloudPayments |
+| [@theyahia/tkassa-mcp](https://www.npmjs.com/package/@theyahia/tkassa-mcp) | ✅ v1.0 | **5** | T-Kassa (Tinkoff) платежи |
+| [@theyahia/robokassa-mcp](https://www.npmjs.com/package/@theyahia/robokassa-mcp) | ✅ v1.0 | **2** | Робокасса |
+| [@theyahia/cloudpayments-mcp](https://www.npmjs.com/package/@theyahia/cloudpayments-mcp) | ✅ v1.0 | **6** | CloudPayments |
 
 ## Данные и обогащение
 
 | Пакет | Статус | Tools | Описание |
 |-------|--------|-------|----------|
 | [@metarebalance/dadata-mcp](https://www.npmjs.com/package/@metarebalance/dadata-mcp) | ✅ v1.0 | **31** | Адреса, компании, банки, телефоны, паспорта |
-| [@theyahia/kontur-focus-mcp](https://www.npmjs.com/package/@theyahia/kontur-focus-mcp) | 📅 | — | Проверка контрагентов |
+| [@theyahia/kontur-focus-mcp](https://www.npmjs.com/package/@theyahia/kontur-focus-mcp) | ✅ v1.0 | **4** | Проверка контрагентов |
 | [@theyahia/cbr-mcp](https://www.npmjs.com/package/@theyahia/cbr-mcp) | ✅ v1.0 | **5** | Курсы валют, ключевая ставка, металлы, конвертация |
-| [@theyahia/chestnyznak-mcp](https://www.npmjs.com/package/@theyahia/chestnyznak-mcp) | 📅 | — | Маркировка товаров |
+| [@theyahia/chestnyznak-mcp](https://www.npmjs.com/package/@theyahia/chestnyznak-mcp) | ✅ v1.0 | **2** | Маркировка товаров |
 
 ## CRM и управление
 
