@@ -31,7 +31,7 @@
 |-------|--------|-------|----------|
 | [@metarebalance/dadata-mcp](https://www.npmjs.com/package/@metarebalance/dadata-mcp) | ✅ v1.0 | **31** | Адреса, компании, банки, телефоны, паспорта |
 | [@theyahia/kontur-focus-mcp](https://www.npmjs.com/package/@theyahia/kontur-focus-mcp) | 📅 | — | Проверка контрагентов |
-| [@theyahia/cbr-mcp](https://www.npmjs.com/package/@theyahia/cbr-mcp) | 📅 | 5 | Курсы валют, ключевая ставка |
+| [@theyahia/cbr-mcp](https://www.npmjs.com/package/@theyahia/cbr-mcp) | ✅ v1.0 | **5** | Курсы валют, ключевая ставка, металлы, конвертация |
 | [@theyahia/chestnyznak-mcp](https://www.npmjs.com/package/@theyahia/chestnyznak-mcp) | 📅 | — | Маркировка товаров |
 
 ## CRM и управление
