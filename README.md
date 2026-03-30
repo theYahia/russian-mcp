@@ -20,7 +20,7 @@
 
 | Пакет | Статус | Tools | Описание |
 |-------|--------|-------|----------|
-| [@theyahia/yookassa-mcp](https://www.npmjs.com/package/@theyahia/yookassa-mcp) | 📅 | 10 | Платежи, возвраты, чеки 54-ФЗ |
+| [@theyahia/yookassa-mcp](https://www.npmjs.com/package/@theyahia/yookassa-mcp) | ✅ v1.0 | **10** | Платежи, возвраты, чеки 54-ФЗ |
 | [@theyahia/tkassa-mcp](https://www.npmjs.com/package/@theyahia/tkassa-mcp) | 📅 | — | T-Kassa (Tinkoff) платежи |
 | [@theyahia/robokassa-mcp](https://www.npmjs.com/package/@theyahia/robokassa-mcp) | 📅 | — | Робокасса |
 | [@theyahia/cloudpayments-mcp](https://www.npmjs.com/package/@theyahia/cloudpayments-mcp) | 📅 | — | CloudPayments |
