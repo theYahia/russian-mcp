@@ -176,6 +176,8 @@ claude mcp add dadata -- npx -y @metarebalance/dadata-mcp
 
 [@theYahia](https://github.com/theYahia) — серия open-source MCP-серверов для российских API.
 
+Telegram: [@vhodvai](https://t.me/vhodvai)
+
 ## Лицензия
 
 MIT
