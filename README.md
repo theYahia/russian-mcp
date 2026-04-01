@@ -3,7 +3,30 @@
 > Open-source MCP-серверы для подключения AI-агентов к российским сервисам. Работают с Claude, ChatGPT, Cursor, VS Code, Windsurf и другими MCP-клиентами.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Servers](https://img.shields.io/badge/MCP_Servers-50-blue)
+![Tools](https://img.shields.io/badge/Tools-368-green)
+[![npm org](https://img.shields.io/badge/npm-@theyahia-red)](https://www.npmjs.com/org/theyahia)
+
 **npm:** [@theyahia](https://www.npmjs.com/org/theyahia) · **Автор:** [@theYahia](https://github.com/theYahia)
+
+---
+
+## Recently upgraded to v2.0
+
+10 серверов полностью переработаны до production-grade уровня: расширенное покрытие API, обработка ошибок, пагинация, фильтрация.
+
+| Пакет | Tools v1 | Tools v2 | Что нового |
+|-------|----------|----------|------------|
+| yookassa-mcp | 10 | **20** | Рекурренты, сплиты, персональные данные |
+| moysklad-mcp | 4 | **21** | Остатки, отчёты, перемещения, инвентаризация |
+| amocrm-mcp | 5 | **19** | Задачи, каталоги, webhooks, теги |
+| hh-mcp | 6 | **16** | Отклики, резюме, аналитика зарплат |
+| yandex-metrika-mcp | 4 | **15** | Цели, сегменты, воронки, отчёты |
+| retailcrm-mcp | 3 | **15** | Заказы, товары, задачи, аналитика |
+| cdek-mcp | 6 | **14** | Офисы, тарифы, печатные формы, webhooks |
+| tkassa-mcp | 5 | **14** | Возвраты, нотификации, QR-коды |
+| cloudpayments-mcp | 6 | **12** | Подписки, токены, 3DS, Apple/Google Pay |
+| travelpayouts-mcp | 3 | **11** | Авиа, отели, направления, календарь цен |
 
 ---
 
@@ -11,10 +34,10 @@
 
 | Пакет | Статус | Tools | Описание |
 |-------|--------|-------|----------|
-| [@theyahia/yookassa-mcp](https://www.npmjs.com/package/@theyahia/yookassa-mcp) | ✅ v1.0 | **10** | Платежи, возвраты, чеки 54-ФЗ |
-| [@theyahia/tkassa-mcp](https://www.npmjs.com/package/@theyahia/tkassa-mcp) | ✅ v1.0 | **5** | T-Kassa (Tinkoff) платежи |
+| [@theyahia/yookassa-mcp](https://www.npmjs.com/package/@theyahia/yookassa-mcp) | ✅ v2.0 | **20** | Платежи, возвраты, чеки 54-ФЗ, рекурренты, сплиты |
+| [@theyahia/tkassa-mcp](https://www.npmjs.com/package/@theyahia/tkassa-mcp) | ✅ v2.0 | **14** | T-Kassa (Tinkoff) платежи, возвраты, QR-коды |
 | [@theyahia/robokassa-mcp](https://www.npmjs.com/package/@theyahia/robokassa-mcp) | ✅ v1.0 | **2** | Робокасса |
-| [@theyahia/cloudpayments-mcp](https://www.npmjs.com/package/@theyahia/cloudpayments-mcp) | ✅ v1.0 | **6** | CloudPayments |
+| [@theyahia/cloudpayments-mcp](https://www.npmjs.com/package/@theyahia/cloudpayments-mcp) | ✅ v2.0 | **12** | CloudPayments, подписки, токены, 3DS |
 
 ## Данные и обогащение
 
@@ -29,10 +52,10 @@
 
 | Пакет | Статус | Tools | Описание |
 |-------|--------|-------|----------|
-| [@theyahia/amocrm-mcp](https://www.npmjs.com/package/@theyahia/amocrm-mcp) | ✅ v1.0 | **10** | Сделки, контакты, воронки |
+| [@theyahia/amocrm-mcp](https://www.npmjs.com/package/@theyahia/amocrm-mcp) | ✅ v2.0 | **19** | Сделки, контакты, воронки, задачи, webhooks |
 | [@theyahia/bitrix24-mcp](https://www.npmjs.com/package/@theyahia/bitrix24-mcp) | ✅ v1.0 | **12** | CRM, задачи, диск |
-| [@theyahia/moysklad-mcp](https://www.npmjs.com/package/@theyahia/moysklad-mcp) | ✅ v1.0 | **10** | Склад, заказы, контрагенты |
-| [@theyahia/retailcrm-mcp](https://www.npmjs.com/package/@theyahia/retailcrm-mcp) | ✅ v1.0 | **8** | Розничная CRM |
+| [@theyahia/moysklad-mcp](https://www.npmjs.com/package/@theyahia/moysklad-mcp) | ✅ v2.0 | **21** | Склад, заказы, остатки, отчёты, инвентаризация |
+| [@theyahia/retailcrm-mcp](https://www.npmjs.com/package/@theyahia/retailcrm-mcp) | ✅ v2.0 | **15** | Розничная CRM, заказы, товары, аналитика |
 | [@theyahia/megaplan-mcp](https://www.npmjs.com/package/@theyahia/megaplan-mcp) | ✅ v1.0 | **7** | CRM и управление проектами |
 | [@theyahia/planfix-mcp](https://www.npmjs.com/package/@theyahia/planfix-mcp) | ✅ v1.0 | **6** | Управление проектами |
 | [@theyahia/kaiten-mcp](https://www.npmjs.com/package/@theyahia/kaiten-mcp) | ✅ v1.0 | **5** | Канбан и управление проектами |
@@ -42,7 +65,7 @@
 
 | Пакет | Статус | Tools | Описание |
 |-------|--------|-------|----------|
-| [@theyahia/cdek-mcp](https://www.npmjs.com/package/@theyahia/cdek-mcp) | ✅ v1.0 | **8** | Расчёт, создание, трекинг |
+| [@theyahia/cdek-mcp](https://www.npmjs.com/package/@theyahia/cdek-mcp) | ✅ v2.0 | **14** | Расчёт, создание, трекинг, офисы, тарифы |
 | [@theyahia/boxberry-mcp](https://www.npmjs.com/package/@theyahia/boxberry-mcp) | ✅ v1.0 | **5** | Доставка |
 | [@theyahia/delovye-linii-mcp](https://www.npmjs.com/package/@theyahia/delovye-linii-mcp) | ✅ v1.0 | **4** | Грузоперевозки |
 | [@theyahia/pochta-russia-mcp](https://www.npmjs.com/package/@theyahia/pochta-russia-mcp) | ✅ v1.0 | **6** | Почта России |
@@ -51,7 +74,7 @@
 
 | Пакет | Статус | Tools | Описание |
 |-------|--------|-------|----------|
-| [@theyahia/yandex-metrika-mcp](https://www.npmjs.com/package/@theyahia/yandex-metrika-mcp) | ✅ v1.0 | **6** | Аналитика сайта |
+| [@theyahia/yandex-metrika-mcp](https://www.npmjs.com/package/@theyahia/yandex-metrika-mcp) | ✅ v2.0 | **15** | Аналитика сайта, цели, сегменты, воронки |
 | [@theyahia/yandex-direct-mcp](https://www.npmjs.com/package/@theyahia/yandex-direct-mcp) | ✅ v1.0 | **8** | Контекстная реклама |
 | [@theyahia/yandex-webmaster-mcp](https://www.npmjs.com/package/@theyahia/yandex-webmaster-mcp) | ✅ v1.0 | **5** | SEO и вебмастер |
 | [@theyahia/unisender-mcp](https://www.npmjs.com/package/@theyahia/unisender-mcp) | ✅ v1.0 | **7** | Email и SMS рассылки |
@@ -64,7 +87,7 @@
 
 | Пакет | Статус | Tools | Описание |
 |-------|--------|-------|----------|
-| [@theyahia/hh-mcp](https://www.npmjs.com/package/@theyahia/hh-mcp) | ✅ v1.0 | **6** | Вакансии, работодатели, зарплаты, справочники |
+| [@theyahia/hh-mcp](https://www.npmjs.com/package/@theyahia/hh-mcp) | ✅ v2.0 | **16** | Вакансии, резюме, отклики, аналитика зарплат |
 | [@theyahia/superjob-mcp](https://www.npmjs.com/package/@theyahia/superjob-mcp) | ✅ v1.0 | **2** | Вакансии |
 | [@theyahia/huntflow-mcp](https://www.npmjs.com/package/@theyahia/huntflow-mcp) | ✅ v1.0 | **4** | Вакансии, кандидаты |
 
@@ -100,7 +123,7 @@
 
 | Пакет | Статус | Tools | Описание |
 |-------|--------|-------|----------|
-| [@theyahia/travelpayouts-mcp](https://www.npmjs.com/package/@theyahia/travelpayouts-mcp) | ✅ v1.0 | **5** | Партнёрка авиабилетов |
+| [@theyahia/travelpayouts-mcp](https://www.npmjs.com/package/@theyahia/travelpayouts-mcp) | ✅ v2.0 | **11** | Авиа, отели, направления, календарь цен |
 | [@theyahia/kaspi-mcp](https://www.npmjs.com/package/@theyahia/kaspi-mcp) | ✅ v1.0 | **4** | Kaspi.kz (Казахстан) |
 | [@theyahia/getcourse-mcp](https://www.npmjs.com/package/@theyahia/getcourse-mcp) | ✅ v1.0 | **5** | Онлайн-школы |
 
