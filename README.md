@@ -9,11 +9,45 @@
 ![Tools](https://img.shields.io/badge/Tools-910+-green)
 [![npm org](https://img.shields.io/badge/npm-@theyahia-red)](https://www.npmjs.com/org/theyahia)
 
+> **🎯 40+ ready-made skills** for these servers: [mcp-skills](https://github.com/theYahia/mcp-skills) — e-commerce workflows, HR pipelines, marketing reports, financial audits
+
 ## Quick Start
 
-```bash
-npx -y @theyahia/yookassa-mcp
+### 1. Добавь в Claude Desktop config
+
+`claude_desktop_config.json`:
+
+```json
+{
+  "mcpServers": {
+    "moysklad": {
+      "command": "npx",
+      "args": ["-y", "@theyahia/moysklad-mcp"],
+      "env": { "MOYSKLAD_TOKEN": "your_token" }
+    },
+    "cdek": {
+      "command": "npx",
+      "args": ["-y", "@theyahia/cdek-mcp"],
+      "env": { "CDEK_CLIENT_ID": "your_id", "CDEK_CLIENT_SECRET": "your_secret" }
+    },
+    "yookassa": {
+      "command": "npx",
+      "args": ["-y", "@theyahia/yookassa-mcp"],
+      "env": { "YOOKASSA_SHOP_ID": "your_id", "YOOKASSA_SECRET_KEY": "your_key" }
+    }
+  }
+}
 ```
+
+### 2. Скажи AI
+
+> «Проверь остатки товара TS-100 в МойСклад, рассчитай доставку СДЭК до Новосибирска, и создай ссылку на оплату через ЮКассу»
+
+### 3. AI сделает всё сам
+
+МойСклад → остатки и цена → СДЭК → тарифы доставки → ЮKassa → ссылка на оплату. Один промпт.
+
+> 📦 **Готовые сценарии использования:** [@theyahia/mcp-skills](https://github.com/theYahia/mcp-skills) — 40+ скиллов для e-commerce, HR, маркетинга, финансов
 
 ---
 
