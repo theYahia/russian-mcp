@@ -74,7 +74,7 @@
 | [@theyahia/bitrix24-mcp](https://www.npmjs.com/package/@theyahia/bitrix24-mcp) | v3.0.0 | 12 tools | Bitrix24 CRM — deals, contacts, tasks, users, files, messages |
 | [@theyahia/moysklad-mcp](https://www.npmjs.com/package/@theyahia/moysklad-mcp) | v3.0.0 | 21 tools | MoySklad — products, stock, orders, counterparties, shipments, supplies, stores, reports, webhooks |
 | [@theyahia/retailcrm-mcp](https://www.npmjs.com/package/@theyahia/retailcrm-mcp) | v2.0.0 | 15 tools | RetailCRM — orders, customers, products, references, analytics |
-| [@theyahia/megaplan-mcp](https://www.npmjs.com/package/@theyahia/megaplan-mcp) | v1.0.0 | 3 tools | Megaplan — tasks, deals management |
+| [@theyahia/megaplan-mcp](https://www.npmjs.com/package/@theyahia/megaplan-mcp) | v2.0.0 | 8 tools + 2 prompts | Megaplan — tasks, deals, projects, employees, comments. Token OR Password-grant auth. Streamable HTTP transport. |
 | [@theyahia/planfix-mcp](https://www.npmjs.com/package/@theyahia/planfix-mcp) | v1.0.0 | 3 tools | Planfix — tasks, contacts |
 | [@theyahia/kaiten-mcp](https://www.npmjs.com/package/@theyahia/kaiten-mcp) | v3.0.0 | 10 tools | Kaiten — boards, cards, columns, tags, users, comments |
 | [@theyahia/elma365-mcp](https://www.npmjs.com/package/@theyahia/elma365-mcp) | v1.0.0 | 3 tools | ELMA365 — app items, BPM tasks |
@@ -94,7 +94,7 @@
 | [@theyahia/calltouch-mcp](https://www.npmjs.com/package/@theyahia/calltouch-mcp) | v1.0.0 | 4 tools | Calltouch — call tracking, call statistics |
 | [@theyahia/mindbox-mcp](https://www.npmjs.com/package/@theyahia/mindbox-mcp) | v1.0.0 | 3 tools | Mindbox CDP — customer profiles, orders, segments |
 | [@theyahia/tgstat-mcp](https://www.npmjs.com/package/@theyahia/tgstat-mcp) | v1.0.0 | 8 tools | TGStat — Telegram channel analytics, search, posts, stats, mentions, comparison |
-| [@theyahia/vk-ads-mcp](https://www.npmjs.com/package/@theyahia/vk-ads-mcp) | v1.0.0 | 8 tools | VK Ads — campaigns, ads, statistics, targeting, budgets |
+| [@theyahia/vk-ads-mcp](https://www.npmjs.com/package/@theyahia/vk-ads-mcp) | v2.0.0 | 8 tools | VK Ads — campaigns, ads, statistics, targeting, budgets. Bearer auth. Streamable HTTP transport. |
 
 #### Logistics
 
@@ -145,7 +145,7 @@
 | [@theyahia/sber-mcp](https://www.npmjs.com/package/@theyahia/sber-mcp) | v1.0.0 | 5 tools | Sberbank — accounts, statements |
 | [@theyahia/alfa-bank-mcp](https://www.npmjs.com/package/@theyahia/alfa-bank-mcp) | v1.0.0 | 8 tools | Alfa-Bank Business — accounts, payments, statements, exchange rates |
 | [@theyahia/tochka-bank-mcp](https://www.npmjs.com/package/@theyahia/tochka-bank-mcp) | v1.0.0 | 8 tools | Tochka Bank — accounts, payments, counterparties, company info |
-| [@theyahia/1c-rest-mcp](https://www.npmjs.com/package/@theyahia/1c-rest-mcp) | v1.0.0 | 6 tools | 1C REST API — catalogs, documents |
+| [@theyahia/1c-rest-mcp](https://www.npmjs.com/package/@theyahia/1c-rest-mcp) | v2.0.0 | 9 tools | 1C:Enterprise REST/OData — catalogs, documents, registers, reports, generic OData queries, entity discovery. Module filtering via `ONEC_SERVICES`. Basic auth. Streamable HTTP transport. |
 | [@theyahia/atol-online-mcp](https://www.npmjs.com/package/@theyahia/atol-online-mcp) | v1.0.0 | 8 tools | ATOL Online — fiscal receipts (54-FZ compliance) |
 | [@theyahia/kontur-diadoc-mcp](https://www.npmjs.com/package/@theyahia/kontur-diadoc-mcp) | v1.0.0 | 8 tools | Kontur.Diadoc — electronic document interchange |
 
@@ -159,13 +159,14 @@
 | [@theyahia/chestnyznak-mcp](https://www.npmjs.com/package/@theyahia/chestnyznak-mcp) | v1.0.0 | 2 tools | Chestniy ZNAK — product marking verification |
 | [@theyahia/casebook-mcp](https://www.npmjs.com/package/@theyahia/casebook-mcp) | v1.0.0 | 8 tools | Casebook/Pravo.ru — legal case search |
 | [@theyahia/spark-interfax-mcp](https://www.npmjs.com/package/@theyahia/spark-interfax-mcp) | v1.0.0 | 8 tools | SPARK-Interfax — business intelligence |
-| [@theyahia/2gis-mcp](https://www.npmjs.com/package/@theyahia/2gis-mcp) | v1.0.0 | 8 tools | 2GIS — places, geocoding, directions, reviews |
+| [@theyahia/2gis-mcp](https://www.npmjs.com/package/@theyahia/2gis-mcp) | v2.0.0 | 8 tools | 2GIS — places search, geocoding, directions, suggest, reviews, by-rubric search. Streamable HTTP transport. |
 | [@theyahia/yandex-maps-mcp](https://www.npmjs.com/package/@theyahia/yandex-maps-mcp) | v1.0.0 | 8 tools | Yandex Maps — geocoding, routing, places search, static maps |
 
 #### Other
 
 | Package | Status | Tools | Description |
 |---------|--------|-------|-------------|
+| [@theyahia/wildberries-mcp](https://www.npmjs.com/package/@theyahia/wildberries-mcp) | v2.0.0 | 15 tools | Wildberries Seller API — products, prices, stocks, orders, sales, FBS supplies, ABC analysis, feedbacks. Production-grade rate limiter (300 req/min + 409 penalty handling with `X-Ratelimit-Retry-After`). Streamable HTTP transport. |
 | [@theyahia/travelpayouts-mcp](https://www.npmjs.com/package/@theyahia/travelpayouts-mcp) | v2.0.0 | 11 tools | Travelpayouts — flight search, price calendar, popular directions, hotel search |
 | [@theyahia/getcourse-mcp](https://www.npmjs.com/package/@theyahia/getcourse-mcp) | v1.0.0 | 5 tools | GetCourse — users, deals (online school platform) |
 
@@ -216,7 +217,7 @@
 | [@theyahia/getir-mcp](https://www.npmjs.com/package/@theyahia/getir-mcp) | v1.0.0 | 8 tools | Getir — partner API |
 | [@theyahia/hepsiburada-mcp](https://www.npmjs.com/package/@theyahia/hepsiburada-mcp) | v1.0.0 | 8 tools | Hepsiburada — marketplace |
 | [@theyahia/trendyol-mcp](https://www.npmjs.com/package/@theyahia/trendyol-mcp) | v1.0.0 | 9 tools | Trendyol — marketplace |
-| [@theyahia/ileti-merkezi-mcp](https://www.npmjs.com/package/@theyahia/ileti-merkezi-mcp) | v1.0.0 | 8 tools | Ileti Merkezi — SMS API |
+| [@theyahia/ileti-merkezi-mcp](https://www.npmjs.com/package/@theyahia/ileti-merkezi-mcp) | v2.0.0 | 8 tools | Ileti Merkezi — single SMS, bulk SMS, delivery reports, contacts, blacklist, OTP. SHA256 HMAC auth. Streamable HTTP transport. |
 
 ### Gulf (UAE + Saudi Arabia)
 
@@ -226,7 +227,7 @@
 | [@theyahia/moyasar-mcp](https://www.npmjs.com/package/@theyahia/moyasar-mcp) | v1.1.0 | 8 tools | Moyasar — payment gateway (Saudi Arabia) |
 | [@theyahia/foodics-mcp](https://www.npmjs.com/package/@theyahia/foodics-mcp) | v1.1.0 | 8 tools | Foodics — POS/restaurant platform (UAE/Saudi) |
 | [@theyahia/tabby-mcp](https://www.npmjs.com/package/@theyahia/tabby-mcp) | v1.1.0 | 8 tools | Tabby — BNPL platform (UAE/Saudi) |
-| [@theyahia/salla-mcp](https://www.npmjs.com/package/@theyahia/salla-mcp) | v1.1.0 | 9 tools | Salla — e-commerce platform (Saudi Arabia) |
+| [@theyahia/salla-mcp](https://www.npmjs.com/package/@theyahia/salla-mcp) | v2.0.0 | 9 tools | Salla — products, orders, customers, store info (Saudi Arabia). OAuth 2.0 Bearer. Streamable HTTP transport. |
 | [@theyahia/unifonic-mcp](https://www.npmjs.com/package/@theyahia/unifonic-mcp) | v1.1.0 | 8 tools | Unifonic — CPaaS: SMS, Voice, WhatsApp (Saudi Arabia) |
 | [@theyahia/paytabs-mcp](https://www.npmjs.com/package/@theyahia/paytabs-mcp) | v1.1.0 | 8 tools | PayTabs — payment gateway (MENA region) |
 
