@@ -1,12 +1,12 @@
 # MCP Servers for Non-Western APIs
 
-> **114 servers · 910+ tools · 15+ countries · npm @theyahia**
+> **119 servers · 952+ tools · 20+ countries · npm @theyahia**
 >
 > The largest open-source collection of MCP servers for CIS, MENA, Africa, LATAM, and Southeast Asia.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![Servers](https://img.shields.io/badge/MCP_Servers-114-blue)
-![Tools](https://img.shields.io/badge/Tools-910+-green)
+![Servers](https://img.shields.io/badge/MCP_Servers-119-blue)
+![Tools](https://img.shields.io/badge/Tools-952+-green)
 [![npm org](https://img.shields.io/badge/npm-@theyahia-red)](https://www.npmjs.com/org/theyahia)
 
 > **🎯 40+ ready-made skills** for these servers: [mcp-skills](https://github.com/theYahia/mcp-skills) — e-commerce workflows, HR pipelines, marketing reports, financial audits
@@ -229,11 +229,13 @@
 | [@theyahia/salla-mcp](https://www.npmjs.com/package/@theyahia/salla-mcp) | v1.1.0 | 9 tools | Salla — e-commerce platform (Saudi Arabia) |
 | [@theyahia/unifonic-mcp](https://www.npmjs.com/package/@theyahia/unifonic-mcp) | v1.1.0 | 8 tools | Unifonic — CPaaS: SMS, Voice, WhatsApp (Saudi Arabia) |
 | [@theyahia/paytabs-mcp](https://www.npmjs.com/package/@theyahia/paytabs-mcp) | v1.1.0 | 8 tools | PayTabs — payment gateway (MENA region) |
+| [@theyahia/fawaterak-mcp](https://www.npmjs.com/package/@theyahia/fawaterak-mcp) | v1.0.0 | 8 tools | **NEW** — Fawaterak: invoice aggregator covering Fawry + cards + wallets + Meeza in one API (Egypt). Bearer auth + sandbox/production switch. |
 
-### Latin America (Brazil + Mexico)
+### Latin America (Brazil + Mexico + Argentina + multi-country)
 
 | Package | Status | Tools | Description |
 |---------|--------|-------|-------------|
+| [@theyahia/mercadopago-mcp](https://www.npmjs.com/package/@theyahia/mercadopago-mcp) | v1.0.0 | 10 tools | **NEW** — MercadoPago payments, refunds, checkout preferences, merchant orders. Multi-country: AR/BR/MX/UY/CL/CO/PE/EC/VE. Bearer auth. |
 | [@theyahia/asaas-mcp](https://www.npmjs.com/package/@theyahia/asaas-mcp) | v1.0.0 | 9 tools | Asaas — payment and Pix gateway (Brazil) |
 | [@theyahia/pagarme-mcp](https://www.npmjs.com/package/@theyahia/pagarme-mcp) | v1.0.0 | 10 tools | Pagar.me — payment gateway (Brazil) |
 | [@theyahia/hotmart-mcp](https://www.npmjs.com/package/@theyahia/hotmart-mcp) | v1.0.0 | 8 tools | Hotmart — digital products platform (Brazil) |
@@ -242,16 +244,24 @@
 | [@theyahia/correios-mcp](https://www.npmjs.com/package/@theyahia/correios-mcp) | v1.0.0 | 8 tools | Correios — Brazilian postal service |
 | [@theyahia/facturapi-mcp](https://www.npmjs.com/package/@theyahia/facturapi-mcp) | v1.0.0 | 10 tools | Facturapi — Mexican e-invoicing (CFDI) |
 
-### Africa (Nigeria + Kenya + South Africa + Algeria)
+### Africa (Nigeria + Kenya + South Africa + Algeria + Ethiopia + 12 Francophone)
 
 | Package | Status | Tools | Description |
 |---------|--------|-------|-------------|
+| [@theyahia/orange-money-mcp](https://www.npmjs.com/package/@theyahia/orange-money-mcp) | v1.0.0 | 8 tools | **NEW** — Orange Money WebPay covering ~12 Francophone African countries (Senegal, Côte d'Ivoire, Mali, Cameroon, Burkina Faso, Chad, Madagascar, Niger, Guinea, Liberia, Sierra Leone, DRC) via single ORANGE_MONEY_COUNTRY env switching. Custom OAuth2 with Basic auth header. |
+| [@theyahia/chapa-mcp](https://www.npmjs.com/package/@theyahia/chapa-mcp) | v1.0.0 | 8 tools | **NEW** — Chapa: payment initialization, verification, transfers, banks, balance (Ethiopia). Bearer auth. |
 | [@theyahia/payfast-mcp](https://www.npmjs.com/package/@theyahia/payfast-mcp) | v1.0.0 | 8 tools | PayFast — payment gateway (South Africa) |
 | [@theyahia/yoco-mcp](https://www.npmjs.com/package/@theyahia/yoco-mcp) | v1.0.0 | 8 tools | Yoco — payment gateway (South Africa) |
 | [@theyahia/nomba-mcp](https://www.npmjs.com/package/@theyahia/nomba-mcp) | v1.0.0 | 8 tools | Nomba — payment and POS platform (Nigeria) |
 | [@theyahia/termii-mcp](https://www.npmjs.com/package/@theyahia/termii-mcp) | v1.0.0 | 8 tools | Termii — SMS and messaging (Nigeria) |
 | [@theyahia/africas-talking-mcp](https://www.npmjs.com/package/@theyahia/africas-talking-mcp) | v1.0.0 | 8 tools | Africa's Talking — communications platform (Kenya/Nigeria/Uganda) |
 | [@theyahia/chargily-mcp](https://www.npmjs.com/package/@theyahia/chargily-mcp) | v1.0.0 | 8 tools | Chargily Pay — payment gateway (Algeria) |
+
+### South Asia (Bangladesh)
+
+| Package | Status | Tools | Description |
+|---------|--------|-------|-------------|
+| [@theyahia/bkash-mcp](https://www.npmjs.com/package/@theyahia/bkash-mcp) | v1.0.0 | 8 tools | **NEW** — bKash Tokenized Checkout: payments, refunds, recurring agreements (Bangladesh's #1 mobile money, 70M+ users). Custom 3-step token grant flow with auto-refresh. |
 
 ### Southeast Asia (Indonesia + Vietnam + Philippines)
 
